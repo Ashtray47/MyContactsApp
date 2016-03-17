@@ -1,18 +1,18 @@
 {
   "name": "contactapp",
   "version": "1.0.0",
-  "description": "contact finder app created with react",
+  "description": "contact app created with react",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node start.js"
   },
   "author": "M Sau",
-  "license": "no license",
+  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.14.2",
+    "body-parser": "^1.15.0",
     "browserify": "^12.0.1",
-    "express": "^4.13.3",
+    "express": "^4.13.4",
     "flux": "^2.1.1",
     "gulp": "^3.9.0",
     "gulp-babel": "^6.1.2",
@@ -20,8 +20,7 @@
     "react": "^0.14.3",
     "react-addons-css-transition-group": "^0.14.3",
     "react-dom": "^0.14.3",
-    "vinyl-source-stream": "^1.1.0",
-    "xml2js": "^0.4.16"
+    "vinyl-source-stream": "^1.1.0"
   },
   "devDependencies": {
     "babel-preset-react": "^6.5.0",

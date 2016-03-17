@@ -1,4 +1,3 @@
-//start.js
 'use strict';
 
 var express = require('express');
@@ -14,10 +13,9 @@ app.listen(port, function(err) {
 	console.log('running server on http://localhost:' + port);
 })
 
-app.get('/.*/', function(req, res) {
+app.get('/', function(req, res) {
 	res.render('index');
 });
-
 
 
 app.use(parser.json());
